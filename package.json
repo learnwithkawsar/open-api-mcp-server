@@ -1,11 +1,14 @@
 {
-  "name": "mcp-server-open-api",
+  "name": "@kawsar-ahmed/open-api-mcp-server",
   "version": "1.0.0",
-  "description": "",
-  "license": "ISC",
-  "author": "",
+  "description": "CLI for interacting with MCP server APIs",
+  "license": "MIT",
+  "author": "Kawsar Ahmed",
   "type": "module",
-  "main": "index.ts",
+  "main": "./dist/index.js",
+  "bin": {
+    "mcp-open-api": "dist/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
